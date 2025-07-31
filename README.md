@@ -69,6 +69,14 @@ Se debe determinar cuantos **bytes** tiene cada archivo.
 
 - 105,230 floats × 4 bytes = **420,920 bytes**
 
+Para saber cuantos bytes tiene la carpeta en total, solo debemos sumar las cantidades:
+
+52,794 +  307,724  + 420,920  
+= **781,438 bytes**
+
+Esa sería la cantidad de bytes que tiene la carpeta.
+
+
 Esas serían las respuestas al ejercicio propuesto en clase.
 
 
