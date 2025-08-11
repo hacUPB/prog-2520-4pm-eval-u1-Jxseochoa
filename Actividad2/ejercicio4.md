@@ -37,3 +37,7 @@ precio_final = valor_compra - descuento
 Mostrar "Valor a pagar: $", precio_final
 Fin
 ```
+## Diagrama de flujo
+[Ejericio4pt1](diagrama4pt1.png)
+
+[Ejercicio4pt2](diagrama4pt2.png)
