@@ -5,21 +5,29 @@ El director de una escuela está organizando un viaje de estudios, y requiere de
 ## Pseudocódigo
 ```
 Inicio
-Leer alumnos
-Si alumnos >=100
-    costo_alumno = 65
-Si no
-    Si alumnos = 65
-Si no
-    Si alumnos >= 50
-        costo_alumno = 70
+    Leer alumnos
+    Si alumnos >= 100
+        costo_alumno = 65
+        total_pagar = alumnos * costo_alumno
     Si no
-        costo_alumno = 95
+        Si alumnos >= 50
+            costo_alumno = 70
+            total_pagar = alumnos * costo_alumno
+        Si no
+            Si alumnos >= 30
+                costo_alumno = 95
+                total_pagar = alumnos * costo_alumno
+            Si no
+                costo_alumno = 4000 / alumnos
+                total_pagar = 4000
+            Fin Si
+        Fin Si
     Fin Si
-Fin Si
 
+    Mostrar "Costo por alumno: ", costo_alumno
+    Mostrar "Total a pagar a la compañía: ", total_pagar
 Fin
 ```
-
 ## Diagrama de flujo
 [Ejercicio5](diagrama5.png)
+
