@@ -1,6 +1,6 @@
 # Ejercicio 6
 
-"Una tienda de ropa tiene la siguiente promoción: por la compra de tres productos, la prenda de menor valor tiene un 70% de descuento. Calcular cuál fue el descuento aplicado y cuánto tiene que pagar la persona."
+Una tienda de ropa tiene la siguiente promoción: por la compra de tres productos, la prenda de menor valor tiene un 70% de descuento. Calcular cuál fue el descuento aplicado y cuánto tiene que pagar la persona.
 
 ## Pseudocódigo
 
@@ -31,4 +31,8 @@ Leer producto3
 
 
 ## Diagrama de flujo
-[Ejercicio6]()
+[Ejercicio6pt1](diagrama6pt1.png)
+
+[Ejercicio6pt2](diagrama6pt2.png)
+
+[Ejercicio6pt3](diagrama6pt3.png)
