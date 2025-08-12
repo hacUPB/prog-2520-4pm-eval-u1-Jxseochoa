@@ -16,12 +16,18 @@ Inicio
 
     edad = año_actual - año_nacimiento
 
-    Si (mes_actual < mes_nacimiento) O (mes_actual = mes_nacimiento Y dia_actual < dia_nacimiento)
-        edad = edad - 1
+    Si (mes_actual = mes_nacimiento) Y (dia_actual = dia_nacimiento)
+        Mostrar "La persona tiene ", edad, " años"
+    Si no
+        Si (mes_actual > mes_nacimiento) O (mes_actual = mes_nacimiento Y dia_actual > dia_nacimiento)
+            Mostrar "La persona tiene ", edad, " años"
+        Si no
+            edad = edad - 1
+            Mostrar "La persona tiene ", edad, " años"
+        Fin Si
     Fin Si
-
-    Mostrar "La persona tiene ", edad, " años"
 Fin
+
 ```
 
 ## Diagrama de flujo
